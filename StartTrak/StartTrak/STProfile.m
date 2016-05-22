@@ -26,7 +26,7 @@
 
 - (NSArray *)selectableFields
 {
-    return @[@{kFieldKey : @"title_id", kLabelKey : @"title", kEntryKey : kEntryKeyTitles},
+    return @[//@{kFieldKey : @"title_id", kLabelKey : @"title", kEntryKey : kEntryKeyTitles},
              @{kFieldKey : @"seniority_id", kLabelKey : @"seniority", kEntryKey : kEntryKeySeniorities},
              @{kFieldKey : @"industry_id", kLabelKey : @"industry", kEntryKey : kEntryKeyIndustries},
              @{kFieldKey : @"country_id", kLabelKey : @"country", kEntryKey : kEntryKeyCountries},

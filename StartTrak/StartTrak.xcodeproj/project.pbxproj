@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		383AD39B1CF1B5D900871127 /* STStartTrackingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383AD39A1CF1B5D900871127 /* STStartTrackingViewController.m */; };
 		384590331C544934009264D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 384590321C544934009264D1 /* main.m */; };
 		384590361C544934009264D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 384590351C544934009264D1 /* AppDelegate.m */; };
 		3845903C1C544934009264D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3845903A1C544934009264D1 /* Main.storyboard */; };
@@ -36,8 +37,10 @@
 		38BDDC661C6F5F4B00493D96 /* OAuthObjcAuthenticator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38BDDC641C6F5F4B00493D96 /* OAuthObjcAuthenticator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38C1DC1A1C5BFD5800905027 /* STSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C1DC191C5BFD5800905027 /* STSearchViewController.m */; };
 		38C1DC1D1C5C0D2000905027 /* STCreateProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C1DC1C1C5C0D2000905027 /* STCreateProfileViewController.m */; };
+		38C67DB01CBAB97500386018 /* STEditMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C67DAF1CBAB97500386018 /* STEditMessageViewController.m */; };
 		38D148FA1C70BD2C00813057 /* UIButton+Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D148F91C70BD2C00813057 /* UIButton+Activity.m */; };
 		38D148FD1C70C3C200813057 /* VDAlertMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D148FC1C70C3C200813057 /* VDAlertMessageView.m */; };
+		38F0328B1CF1CC0100AB50A2 /* UPTextInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F0328A1CF1CC0100AB50A2 /* UPTextInputAccessoryView.m */; };
 		BC51805AB1872E1A59290B04 /* libPods-StartTrak.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F53D6928CBFD6E99701C252 /* libPods-StartTrak.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +60,8 @@
 
 /* Begin PBXFileReference section */
 		1F53D6928CBFD6E99701C252 /* libPods-StartTrak.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StartTrak.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		383AD3991CF1B5D900871127 /* STStartTrackingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STStartTrackingViewController.h; sourceTree = "<group>"; };
+		383AD39A1CF1B5D900871127 /* STStartTrackingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STStartTrackingViewController.m; sourceTree = "<group>"; };
 		3845902E1C544934009264D1 /* StartTrak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StartTrak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		384590321C544934009264D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		384590341C544934009264D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,10 +112,14 @@
 		38C1DC191C5BFD5800905027 /* STSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSearchViewController.m; sourceTree = "<group>"; };
 		38C1DC1B1C5C0D2000905027 /* STCreateProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCreateProfileViewController.h; sourceTree = "<group>"; };
 		38C1DC1C1C5C0D2000905027 /* STCreateProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCreateProfileViewController.m; sourceTree = "<group>"; };
+		38C67DAE1CBAB97500386018 /* STEditMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STEditMessageViewController.h; sourceTree = "<group>"; };
+		38C67DAF1CBAB97500386018 /* STEditMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STEditMessageViewController.m; sourceTree = "<group>"; };
 		38D148F81C70BD2C00813057 /* UIButton+Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Activity.h"; sourceTree = "<group>"; };
 		38D148F91C70BD2C00813057 /* UIButton+Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Activity.m"; sourceTree = "<group>"; };
 		38D148FB1C70C3C200813057 /* VDAlertMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDAlertMessageView.h; sourceTree = "<group>"; };
 		38D148FC1C70C3C200813057 /* VDAlertMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDAlertMessageView.m; sourceTree = "<group>"; };
+		38F032891CF1CC0100AB50A2 /* UPTextInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPTextInputAccessoryView.h; sourceTree = "<group>"; };
+		38F0328A1CF1CC0100AB50A2 /* UPTextInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPTextInputAccessoryView.m; sourceTree = "<group>"; };
 		800091EB88CECF712A2A1585 /* Pods-StartTrak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartTrak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StartTrak/Pods-StartTrak.debug.xcconfig"; sourceTree = "<group>"; };
 		BA0A33A0E8184FF3187ADD9F /* Pods-StartTrak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartTrak.release.xcconfig"; path = "Pods/Target Support Files/Pods-StartTrak/Pods-StartTrak.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,6 +202,10 @@
 				38550DD11C6542D50026C4C0 /* STSelectableOptionsViewController.m */,
 				3877713A1C675B3200F85183 /* STSearchResultsViewController.h */,
 				3877713B1C675B3200F85183 /* STSearchResultsViewController.m */,
+				38C67DAE1CBAB97500386018 /* STEditMessageViewController.h */,
+				38C67DAF1CBAB97500386018 /* STEditMessageViewController.m */,
+				383AD3991CF1B5D900871127 /* STStartTrackingViewController.h */,
+				383AD39A1CF1B5D900871127 /* STStartTrackingViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -249,6 +262,8 @@
 		389F67411C615A1900EE7A09 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				38F032891CF1CC0100AB50A2 /* UPTextInputAccessoryView.h */,
+				38F0328A1CF1CC0100AB50A2 /* UPTextInputAccessoryView.m */,
 				389F67421C615A2D00EE7A09 /* STStyleUtility.h */,
 				389F67431C615A2D00EE7A09 /* STStyleUtility.m */,
 				3871F7331C640EB800156BE8 /* STDictionariesManager.h */,
@@ -430,6 +445,7 @@
 			files = (
 				384590361C544934009264D1 /* AppDelegate.m in Sources */,
 				389F674D1C6172F000EE7A09 /* STSignUpWithEmailViewController.m in Sources */,
+				383AD39B1CF1B5D900871127 /* STStartTrackingViewController.m in Sources */,
 				387771421C67739A00F85183 /* STSearchResultsCell.m in Sources */,
 				3871F7351C640EB800156BE8 /* STDictionariesManager.m in Sources */,
 				3845903F1C544934009264D1 /* StartTrak.xcdatamodeld in Sources */,
@@ -437,9 +453,11 @@
 				3871F72E1C64078B00156BE8 /* STProfileItem.m in Sources */,
 				38C1DC1D1C5C0D2000905027 /* STCreateProfileViewController.m in Sources */,
 				38550DD51C654C300026C4C0 /* STSelectableOptionCell.m in Sources */,
+				38C67DB01CBAB97500386018 /* STEditMessageViewController.m in Sources */,
 				3871F72B1C6404AB00156BE8 /* STProfileRowCell.m in Sources */,
 				38D148FD1C70C3C200813057 /* VDAlertMessageView.m in Sources */,
 				3871F7311C6409E400156BE8 /* STButtonCell.m in Sources */,
+				38F0328B1CF1CC0100AB50A2 /* UPTextInputAccessoryView.m in Sources */,
 				38C1DC1A1C5BFD5800905027 /* STSearchViewController.m in Sources */,
 				387771461C67770C00F85183 /* STSearchItem.m in Sources */,
 				38550DD21C6542D50026C4C0 /* STSelectableOptionsViewController.m in Sources */,
@@ -597,7 +615,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.starttrak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "02f21a28-a7ad-4fa9-9033-0523a2850d8c";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

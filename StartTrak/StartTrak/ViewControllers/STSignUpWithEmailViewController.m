@@ -231,7 +231,8 @@
                                          }
                                          else {
                                              NSLog(@"Logging in existing user");
-                                             [self performSegueWithIdentifier:@"showSearchAfterSignIn" sender:nil];
+//                                             [self performSegueWithIdentifier:@"showSearchAfterSignIn" sender:nil];
+                                             [self performSegueWithIdentifier:@"showStartTracking" sender:nil];
                                          }
                                          
                                      }
@@ -269,7 +270,8 @@
                                          self.view.userInteractionEnabled = YES;
                                          
                                          NSLog(@"Logging in existing user");
-                                         [self performSegueWithIdentifier:@"showSearchAfterSignIn" sender:nil];
+//                                         [self performSegueWithIdentifier:@"showSearchAfterSignIn" sender:nil];
+                                         [self performSegueWithIdentifier:@"showStartTracking" sender:nil];
                                      }
                                      failure:^(STServiceErrorCode status, NSString *msg) {
                                          

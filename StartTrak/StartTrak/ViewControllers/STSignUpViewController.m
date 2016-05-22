@@ -112,7 +112,8 @@ typedef void (^getUserProfileBlock)(NSDictionary *params);
                                              [self.loginActivityIndicator stopAnimating];
                                              self.view.userInteractionEnabled = YES;
                                              
-                                             [self performSegueWithIdentifier:@"STSearchViewControllerSegue" sender:profile];
+//                                             [self performSegueWithIdentifier:@"STSearchViewControllerSegue" sender:profile];
+                                             [self performSegueWithIdentifier:@"showStartTracking" sender:nil];
                                              
                                          } failure:^(STServiceErrorCode status, NSString *msg) {
                                              //TODO: error handling
@@ -282,13 +283,14 @@ typedef void (^getUserProfileBlock)(NSDictionary *params);
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
     
-    if ([segue.identifier isEqualToString:@"STSearchViewControllerSegue"]) {
+//    if ([segue.identifier isEqualToString:@"STSearchViewControllerSegue"]) {
 //        STSearchViewController *svc = segue.destinationViewController;
 //        svc.profile = (STProfile *)sender;
 //        NSLog(@"svc=%@", svc);
         
-    }
-    else if ([segue.identifier isEqualToString:@"signInWithEmailSegue"]) {
+//    }
+//    else
+    if ([segue.identifier isEqualToString:@"signInWithEmailSegue"]) {
         STSignUpWithEmailViewController *signUpEmailVC = segue.destinationViewController;
         
         signUpEmailVC.isSignUp = NO;

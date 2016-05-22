@@ -97,7 +97,8 @@
                                      [sender stopActivityIndicator];
                                      self.view.userInteractionEnabled = YES;
                                      
-                                     [self performSegueWithIdentifier:@"showSearchSegue" sender:nil];
+//                                     [self performSegueWithIdentifier:@"showSearchSegue" sender:nil];
+                                     [self performSegueWithIdentifier:@"showStartTracking" sender:nil];
                                  }
                                  failure:^(STServiceErrorCode status, NSString *msg) {
                                      [sender stopActivityIndicator];
@@ -120,7 +121,8 @@
                                      [sender stopActivityIndicator];
                                      self.view.userInteractionEnabled = YES;
                                      
-                                     [self performSegueWithIdentifier:@"showSearchSegue" sender:nil];
+//                                     [self performSegueWithIdentifier:@"showSearchSegue" sender:nil];
+                                     [self performSegueWithIdentifier:@"showStartTracking" sender:nil];
                                  }
                                  failure:^(STServiceErrorCode status, NSString *msg) {
                                      
